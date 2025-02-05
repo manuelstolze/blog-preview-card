@@ -1,0 +1,17 @@
+.card {
+  max-width: 327px;
+}
+
+body{
+    margin: 0;
+}
+
+@media (min-width: 577px) {
+    .card {
+        max-width: 384px;
+    }
+
+    .card-image-wrapper {
+        margin: unset!important;
+    }
+}

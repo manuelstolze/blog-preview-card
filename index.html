@@ -5,30 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./src/css/styles.css">
   <title>Frontend Mentor | Blog preview card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <div class="container-fluid">
 
-  Learning
+    <div class="card">
+      <div class="card-grid">
+        <div class="card-image-wrapper">
+          <img src="./assets/images/illustration-article.svg" alt="Illustration Article Banner Image" class="card-image"/>
+        </div>
 
-  Published 21 Dec 2023
+        <div class="card-content">
+          <div class="category figtree-italic-small-bold" >
+            Learning
+          </div>
 
-  HTML & CSS foundations
+          <div class="figtree-italic-small grey-950">
+            Published 21 Dec 2023
+          </div>
+          <div class="title figtree-extra-bold"> HTML & CSS foundations</div>
+          <div class="figtree-italic grey-500">
+            These languages are the backbone of every website, defining structure, content, and presentation.
+          </div>
+        </div>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
+        <div class="card-author">
+          <img src="./assets/images/image-avatar.webp" alt="Avatar" class="card-user-image"/>
+          <span class="figtree-italic-small-bold">Greg Hooper</span>
+        </div>
+    </div>
 
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <div class="attribution figtree-extra-bold">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/manuelstolze">Manuel Stolze</a>.
   </div>
 </body>
 </html>

@@ -1,0 +1,23 @@
+.figtree-extra-bold {
+    font : bold 24px 'Figtree Extra Bold', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.figtree-italic {
+    font : normal 16px 'Figtree Medium', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.figtree-italic-small {
+    font : normal 14px 'Figtree Medium Small', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.figtree-italic-small-bold {
+    font : bold 14px 'Figtree Medium Small Bold', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
